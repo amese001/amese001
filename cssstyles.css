@@ -1,5 +1,5 @@
 body{
-    font-family: gotham rounded light; 
+    font-family: "Gotham Rounded";
     font-style: normal; 
     display: grid;
 }
@@ -9,24 +9,32 @@ body{
     padding-top: 50px;
 }
 .nav{
-    font-family: skia;
-    margin-left: 500px;
-    margin-right: 500px;
+    font-family: "Skia";
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     text-align: center;
+    width: 700px ;
 }
 .nav ul li {
     list-style: none;
+    display: inline-block ;
 }
 .nav ul li a{
     text-decoration: none;
-    float: left;
-    display: block;
+/*    float: left;*/
+/*    display: block;*/
     padding: 10px 20px;
     color: black;
 }
 .nav ul li a:hover{
     color:8dc63f;
+}
+
+#primary_nav {
+    border-bottom: 1px solid #000 ;
+    padding-bottom: 20px ;
+    padding-left: 0 ;
 }
 .wrapper{
     
@@ -36,6 +44,9 @@ body{
     grid-row-gap: 5em;
     padding: 100px; 
     align-content: center;
+}
+.wrapper div p{
+    margin-top: 0;
 }
 .slideshow-container {
   max-width: 750px;
@@ -119,5 +130,12 @@ body{
   to {opacity: 1}
 }
 
+/*form styles*/
 
+#mG61Hd {
+    font-family: Helvetica ;
+}
 
+#mG61Hd input {
+    margin-bottom: 2em ;
+}
